@@ -1,0 +1,226 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.hua {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(241, 224, 224);
+    font-size: 125%;
+    margin: 0 8px;
+}
+a:hover {
+    color: blue;
+}
+.background{
+    background-image: url(BlueBack.jpg);
+    
+    background-size: cover;     
+}
+.logout{
+    text-align: center;
+    margin: 20px 20px;
+    list-style-type: none;
+}
+.jumbotron{
+    text-align: center;
+    margin: 50px 0px 25px;
+    
+    height: 100px;
+    width: 100px;
+    
+}
+.Title{
+    text-align: center;
+}
+.container_nav{
+    overflow: hidden;
+    width: 100%;
+    height: 8%;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slider {
+    height: 5%;
+    width: 100%; 
+    background: greenyellow; 
+    -webkit-appearance: none; 
+  }
+
+.container-nav-1 {
+    height: 100%;;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.container_nav li{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 20px;
+    /* padding: 20px 100px; */
+    list-style-type: none;
+}
+.containerlogin{
+    opacity: 0.5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25%;
+    
+}
+.containerlogin:hover{
+    opacity: 1;
+}
+.logo-home{
+    height: 100%;
+}
+.submit input{
+    width: 100%;
+}
+.center-in-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 20px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    
+}
+.userinfo{
+    height: 100%;
+    width: 35%;
+    border: solid 8px darkblue;
+    background-image: radial-gradient(white,rgb(150,150,150));
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0,25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.datapaket{
+    height: 100%;
+    width: 35%;
+    border: solid 8px darkblue;
+    background-image: radial-gradient(white,rgb(150,150,150));
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0,25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    border: solid 8px darkblue;
+    background-image: radial-gradient(white,rgb(150,150,150));
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0,25);
+    border-radius: 20px;
+    height: 100%;
+    width: 25%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+@media(max-width:){
+    
+}
+@media (max-width: 1024px){
+    .main{
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    .userinfo{
+        margin-right: unset;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    
+    
+    .datapaket{
+        width: 70%;;
+    }
+    .submitfeed{
+        width: 50%;
+        height: 20%;
+    }
+    
+}
+@media(max-width: 500px){
+    .logo-home{
+        display: none;
+    }
+    
+}
+@media(max-width: 420px){
+    a{
+        font-size: 90%;
+    }
+}
+#texta{
+    width: 50%;
+}
+#textb{
+    width: 50%;
+    height : 35%;
+}
+.submitfeed{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+    border-radius: 20px;
+    border: solid whitesmoke;
+    cursor: pointer;
+    width: 30%;
+    height: 20%;
+    padding: 10px;
+
+}
+.loginbutton{
+    padding: 5px;
+}
